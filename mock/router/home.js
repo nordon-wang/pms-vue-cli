@@ -1,13 +1,10 @@
 const Router = require('koa-router')
-const { getTxt, getUserInfo } = require('../controller/home')
+const { getTxt } = require('../controller/home')
 
 let home = new Router()
 
-// home.get('/', getTxt)
-console.log('===>', getUserInfo);
-
+// 首页
 home
-.get('/', getTxt)
-.get('/getUserInfo', getTxt)
+  .get('/', getTxt)
 
 module.exports = home

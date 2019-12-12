@@ -2,23 +2,7 @@
 
 exports.getTxt = async ctx => {
   ctx.body = {
-    data: [
-      {
-        id: 10,
-        btitle: 'BLOCK_HEIGHT',
-        bread: '558708',
-        bcomment: 0
-      }
-    ]
+    data: '我是首页的数据'
   }
 }
 
-exports.getUserInfo = async ctx => {
-  ctx.body = {
-    data: {
-      userName: 'nordon',
-      age: 18,
-      query: ctx.request.body
-    }
-  }
-}

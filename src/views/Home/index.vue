@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <p class="home-page">home page</p>
+    <p class="home-page">home page ...</p>
   </div>
 </template>
 
@@ -13,7 +13,7 @@ export default {
     }
   },
   created() {
-    console.log('asd')
+    console.log('s')
   }
 }
 </script>

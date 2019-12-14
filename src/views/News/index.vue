@@ -16,8 +16,8 @@ export default {
 <style lang="scss" scoped>
 $color: #f0f;
 
-.news{
-  .news-page{
+.news {
+  &-page {
     color: $color;
     font-size: 24px;
   }

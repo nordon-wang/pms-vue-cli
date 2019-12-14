@@ -1,0 +1,10 @@
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+  overflow: hidden;
+}
+
+.clearfix {
+  *zoom: 1;
+}
